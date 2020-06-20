@@ -1,0 +1,24 @@
+* General Information
+
+** Color Palette
+
+*** TODO Decide on a color palette
+**** Ideas
+https://hookagency.com/website-color-schemes/ palettes 8 and 9
+
+
+* Pages
+
+** Pages Overview
+
+*** General
+
+*** Donate Page
+
+*** FAQ
+
+** Wireframes
+
+*** Donate Page
+
+*** FAQ
