@@ -1,0 +1,15 @@
+# Compiled
+*.elc
+
+
+# Backup files
+*~
+
+# Autosave
+\#*\#
+
+# impatient-mode sockets
+.\#*
+
+# scratch directory for experimental work
+scratch
