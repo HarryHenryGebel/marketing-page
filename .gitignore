@@ -14,6 +14,7 @@
 # tex and pdf files (org mode previews)
 *.pdf
 *.tex
+!Design*Ideas.pdf
 
 # scratch directory for experimental work
 scratch
