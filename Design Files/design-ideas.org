@@ -19,12 +19,21 @@ Ideas possibly requiring interaction with all project members.
 + Four pages: Home Page, About, Donate, FAQ
 + Also sign on?
 + Standard header and footer?
++ Preprocessor
+ + They aren't teaching LESS any longer, but they still use SASS in
+   React, will it be useful for us to learn it a little early?
+ + How difficult is it to install a preprocessor on Windows?
+ + Interaction with other development tools e.g, Live Server, git?
 
 *** Donate Page
 
 *** FAQ
 
 ** Wireframes
+
+*** Header
+
+*** Footer
 
 *** Donate Page
 
