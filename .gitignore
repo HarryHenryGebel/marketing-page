@@ -11,5 +11,9 @@
 # impatient-mode sockets
 .\#*
 
+# tex and pdf files (org mode previews)
+*.pdf
+*.tex
+
 # scratch directory for experimental work
 scratch
