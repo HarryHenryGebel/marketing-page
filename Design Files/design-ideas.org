@@ -1,17 +1,24 @@
 * General Information
 
+Ideas possibly requiring interaction with all project members.
+
 ** Color Palette
 
 *** TODO Decide on a color palette
-**** Ideas
-https://hookagency.com/website-color-schemes/ palettes 8 and 9
 
+**** Ideas
+
++ https://hookagency.com/website-color-schemes/ palettes 8 and 9
 
 * Pages
 
 ** Pages Overview
 
 *** General
+
++ Four pages: Home Page, About, Donate, FAQ
++ Also sign on?
++ Standard header and footer?
 
 *** Donate Page
 
