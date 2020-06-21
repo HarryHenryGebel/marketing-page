@@ -24,7 +24,8 @@ Ideas possibly requiring interaction with all project members.
    React, will it be useful for us to learn it a little early?
  + How difficult is it to install a preprocessor on Windows?
   + And if we are going to have to do it eventually anyway, might we
-    just as well figure it out now regardless
+    just as well figure it out now regardless?
+  + Perhaps after finishing bulk of work i.e. Wednesday or Thursday?
  + Interaction with other development tools e.g, Live Server, git?
 
 *** Donate Page
