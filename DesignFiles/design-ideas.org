@@ -29,7 +29,7 @@ Ideas possibly requiring interaction with all project members.
   + Perhaps after finishing bulk of work i.e. Wednesday or Thursday?
  + Interaction with other development tools e.g, Live Server, gint*?*
 
-** Font
+*** Font
 
 Base font: [[https://fonts.google.com/specimen/Work+Sans?preview.size=25&sidebar.open&selection.family=Work+Sans][Work Sans by Wei Huang]]
 
