@@ -26,7 +26,21 @@ Ideas possibly requiring interaction with all project members.
   + And if we are going to have to do it eventually anyway, might we
     just as well figure it out now regardless?
   + Perhaps after finishing bulk of work i.e. Wednesday or Thursday?
- + Interaction with other development tools e.g, Live Server, git?
+ + Interaction with other development tools e.g, Live Server, gint*?*
+
+*** Project structure
+
+*/*
++ *index.html* Home page
++ *about.html* About page
++ *donate.html* Donate page
++ *faq.html* FAQ page
++ *footer.html* Template footer
++ *header.html* Template header
++ *assets/* images
++ *css/* css files
+ + *replate.css* common css for all page
+ + */page-name/.css* css pages for each page
 
 *** Donate Page
 
