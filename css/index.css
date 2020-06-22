@@ -15,8 +15,38 @@ body {
     font-weight: 500;
 }
 /* start of landing styling */
+#main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
 h1 {
     color: #4e2670;
+}
+p {
+    margin: 4% 0;
+    width: 95%;
+    justify-content: center;
+}
+#buttons {
+    display: flex;
+    margin: 3% 2% 3% 0;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+button {
+    background-color: #4e2670;
+    border-radius: 10px;
+    padding: 3.5% 7%;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 2%;
+    border: none;
+}
+button:hover {
+    background-color: #7d3cff;
 }
 /* end of landing styling */
 /* start of footer styling */
