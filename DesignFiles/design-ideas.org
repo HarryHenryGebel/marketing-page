@@ -21,7 +21,8 @@ Base font: [[https://fonts.google.com/specimen/Work+Sans?preview.size=25&sidebar
 *** General
 
 + Four pages: Home Page, About, Donate, FAQ
-+ Also sign on?
++ Also sign on? *Link to sign on and signup to be provided by Front
+  end*
 + Standard header and footer?
 + Preprocessor
  + They aren't teaching LESS any longer, but they still use SASS in
