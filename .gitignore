@@ -14,7 +14,10 @@
 # tex and pdf files (org mode previews)
 *.pdf
 *.tex
-!Design*Ideas.pdf
+!DesignIdeas.pdf
 
 # scratch directory for experimental work
 scratch
+
+# org mode auto generated png files
+org*png
