@@ -11,8 +11,14 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Work Sans', sans-serif;
+    color: #4e2670;
+    font-weight: 500;
 }
-
+/* start of landing styling */
+h1 {
+    color: #4e2670;
+}
+/* end of landing styling */
 /* start of footer styling */
 footer{
     display: flex;
@@ -52,7 +58,7 @@ footer nav {
 }
 footer nav a {
     text-decoration: none;
-    color: #7d3cff;
+    color: #4e2670;
     font-size: 1.8rem;
     padding: .5% 0;
 }
