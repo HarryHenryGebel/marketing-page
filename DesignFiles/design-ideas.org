@@ -12,6 +12,10 @@ Ideas possibly requiring interaction with all project members.
 
 * Pages
 
+** Font
+
+Base font: [[https://fonts.google.com/specimen/Work+Sans?preview.size=25&sidebar.open&selection.family=Work+Sans][Work Sans by Wei Huang]]
+
 ** Pages Overview
 
 *** General
