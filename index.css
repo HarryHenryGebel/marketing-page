@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+body {
+    font-size: 62.5%;
+}
+footer{
+    display: flex;
+    width: 100%;
+}
+#left-footer {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#left-footer nav {
+    width: 50%;
+}
+#right-footer {
+    display: flex;
+    justify-content: center;
+    width: 50%
+}
+#right-footer nav {
+    width: 50%;
+}
+footer nav {
+    background-color: #fceed1;
+}
+footer nav a {
+    text-decoration: none;
+    color: #7d3cff;
+}
