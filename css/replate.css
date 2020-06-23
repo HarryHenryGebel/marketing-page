@@ -1,0 +1,27 @@
+:root {
+    --foreground1: #4e2670;
+    --background1: #fceed1;
+}
+
+* {
+    color: var(--foreground1);
+    background-color: var(--background1);
+}
+
+#header-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#nav-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-auth {
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: .5rem;
+}
