@@ -16,11 +16,11 @@ body {
 #header {
     background: url(https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1184&q=80);
     background-size: cover;
-    height: 40vh;
+    height: 34vh;
 }
 #overlay {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 49%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -28,6 +28,30 @@ body {
     font-size: 3.5rem;
     width: 60%;
     color: whitesmoke;
+}
+#main-body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+main h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1% 0;
+}
+main img {
+    width: fit-content;
+    padding-top: 2%;
+}
+main p {
+    font-size: 1.4rem;
+    padding: 4% 0;
 }
 /* end of about page styling */
 /* start of footer styling */
