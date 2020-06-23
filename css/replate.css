@@ -18,11 +18,16 @@ html {
 
 a {
     text-decoration: none;
+    font-size: 2rem;
 }
 
 body {
     font-size: 1.6rem;
     font-family: 'Work Sans', sans-serif;
+}
+
+.replate-logo {
+    height: 7.5vh;
 }
 
 /* start header styling */
@@ -33,15 +38,9 @@ header {
 
 #header-nav {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     height: 10vh;
     margin: 1rem;
-}
-
-#header-nav-top {
-    display: flex;
-    justify-content: space-between;
 }
 
 #header-nav-home {
@@ -52,11 +51,17 @@ header {
     padding: 1rem;
     border: 2px solid;
     border-radius: .5rem;
+    align-self: flex-start;
+}
+
+#header-nav-left {
+    display: flex;
 }
 
 #header-nav-pages {
     display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
+    margin-left: 10rem;
 }
 
 .nav-page {
