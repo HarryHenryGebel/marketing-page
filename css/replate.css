@@ -16,6 +16,9 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     font-size: 1.6rem;
@@ -98,7 +101,6 @@ footer nav {
     padding: 2% 0;
 }
 footer nav a {
-    text-decoration: none;
     font-size: 1.8rem;
     padding: .5% 0;
 }
