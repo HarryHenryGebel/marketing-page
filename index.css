@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 html {
     font-size: 62.5%;
@@ -12,7 +12,24 @@ body {
     font-size: 1.6rem;
     font-family: 'Work Sans', sans-serif;
 }
-
+/* start of about page styling */
+#header {
+    background: url(https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1184&q=80);
+    background-size: cover;
+    height: 40vh;
+}
+#overlay {
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    width: 60%;
+    color: whitesmoke;
+}
+/* end of about page styling */
 /* start of footer styling */
 footer{
     display: flex;
