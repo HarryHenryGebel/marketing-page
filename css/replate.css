@@ -23,19 +23,29 @@ body {
 }
 
 /* start header styling */
+
+header {
+    border-bottom: 1px solid var(--foreground1);
+}
+
 #header-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 10vh;
+    margin: 1rem;
 }
 
-#nav-top {
+#header-nav-top {
     display: flex;
     justify-content: space-between;
 }
 
-#nav-auth {
+#header-nav-home {
+    padding: 1rem;
+}
+
+#header-nav-auth {
     padding: 1rem;
     border: 2px solid;
     border-radius: .5rem;
