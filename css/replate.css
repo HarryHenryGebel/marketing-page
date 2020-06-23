@@ -50,6 +50,15 @@ header {
     border: 2px solid;
     border-radius: .5rem;
 }
+
+#header-nav-pages {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-page {
+    margin: 0 1rem;
+}
 /* end header styling */
 
 /* start of footer styling */
