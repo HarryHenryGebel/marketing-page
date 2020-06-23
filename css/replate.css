@@ -1,3 +1,5 @@
+@import "meyers.css"
+
 :root {
     --foreground1: #4e2670;
     --background1: #fceed1;
@@ -10,11 +12,6 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
-}
-
-html {
-    font-size: 62.5%;
 }
 
 body {
