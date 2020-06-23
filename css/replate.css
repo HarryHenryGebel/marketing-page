@@ -57,14 +57,7 @@ footer{
     background-color: var(--background1);
 }
 
-/* #right-footer { */
-/*     display: flex; */
-/*     justify-content: space-evenly; */
-/*     width: 50%; */
-/* } */
-
 #right-footer a img {
-    /* align-items: center; */
     width: 2rem;
     align-self: flex-start;
     margin-left: 1rem;
