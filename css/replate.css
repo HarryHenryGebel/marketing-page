@@ -91,6 +91,7 @@ footer{
 }
 
 .nav-page {
+    color: var(--foreground1);
     margin: 0 1rem;
 }
 /* end combined header/footer styling */
