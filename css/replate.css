@@ -1,6 +1,6 @@
 :root {
     --foreground-marginals: #4e2670;
-    --foreground-main: mediumblue;
+    --foreground-main: rgb(10, 10, 10);
     --background-marginals: #fceed1;
     --background-main: white;
 }
