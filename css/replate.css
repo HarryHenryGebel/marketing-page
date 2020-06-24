@@ -38,6 +38,7 @@ header {
     border-bottom: 1px solid var(--foreground1);
     color: var(--foreground1);
     background-color: var(--background1);
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
