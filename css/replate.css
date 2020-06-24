@@ -19,6 +19,7 @@ html {
 a {
     text-decoration: none;
     font-size: 2rem;
+    color: var(--foreground-main)
 }
 
 body {
@@ -35,6 +36,11 @@ body {
 h1 {
     font-size: 4rem;
     font-weight: bolder;
+    padding: 4rem;
+}
+
+p {
+    font-size: 2rem;
 }
 
 /* start header styling */
