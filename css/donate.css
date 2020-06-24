@@ -29,6 +29,7 @@ p {
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+    margin-top: 4rem;
 }
 
 #purpose-text {
