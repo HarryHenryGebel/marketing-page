@@ -1,4 +1,7 @@
 /* start of about page styling */
+header {
+    margin-bottom: 0px;
+}
 #header {
     position: relative;
     text-align: center;
@@ -45,3 +48,13 @@ main p {
     padding: 4% 0;
 }
 /* end of about page styling */
+@media(min-width: 500px) {
+    main p {
+        font-size: 1.5rem;
+    }
+}
+@media(min-width: 900px) {
+    main p {
+        font-size: 1.6rem;
+    }
+}
