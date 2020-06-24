@@ -1,7 +1,7 @@
 :root {
-    --foreground1: #4e2670;
+    --foreground-marginals: #4e2670;
     --foreground-main: #4e2670;
-    --background1: #fceed1;
+    --background-marginals: #fceed1;
     --background-main: white;
 }
 
@@ -46,9 +46,9 @@ p {
 /* start header styling */
 
 header {
-    border-bottom: 1px solid var(--foreground1);
-    color: var(--foreground1);
-    background-color: var(--background1);
+    border-bottom: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -64,9 +64,9 @@ header {
 /* start of footer styling */
 footer{
     margin-top: 1rem;
-    border-top: 1px solid var(--foreground1);
-    color: var(--foreground1);
-    background-color: var(--background1);
+    border-top: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
 }
 
 #right-footer a img {
@@ -109,7 +109,7 @@ footer .nav-pages {
 }
 
 .nav-page {
-    color: var(--foreground1);
+    color: var(--foreground-marginals);
     margin: 0 1rem;
 }
 /* end combined header/footer styling */
