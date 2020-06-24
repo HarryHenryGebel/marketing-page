@@ -1,0 +1,24 @@
+#content {
+    margin: 2rem;
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
+
+#questions {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.question {
+    margin-top: 2rem;
+}
+
+.question h2 {
+    font-style: italic;
+}
+
+.question p {
+    padding-left: 3rem;
+}
