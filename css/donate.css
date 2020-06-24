@@ -24,3 +24,25 @@ p {
 .a-plea {
     font-weight: bold;
 }
+
+#purpose {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+#purpose-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    padding: 2rem 0;
+}
+
+#purpose-text p {
+    margin-top: 1.5rem;
+}
+
+#purpose img {
+    width: 45%;
+}
