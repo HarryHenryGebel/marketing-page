@@ -1,0 +1,47 @@
+/* start of about page styling */
+#header {
+    position: relative;
+    text-align: center;
+    /* color: whitesmoke; */
+}
+#header img{
+    height: 34vh;
+    object-fit: none;
+    width: fit-content;
+}
+#header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    width: 60%;
+    color: whitesmoke;
+}
+#main-body {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+main h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 1% 0;
+}
+main img {
+    width: fit-content;
+    padding-top: 2%;
+}
+main p {
+    font-size: 1.4rem;
+    padding: 4% 0;
+}
+/* end of about page styling */
