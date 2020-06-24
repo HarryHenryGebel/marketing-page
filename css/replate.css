@@ -1,7 +1,7 @@
 :root {
-    --foreground1: #4e2670;
-    --foreground-main: #f2d53c;
-    --background1: #fceed1;
+    --foreground-marginals: #4e2670;
+    --foreground-main: mediumblue;
+    --background-marginals: #fceed1;
     --background-main: white;
 }
 
@@ -19,6 +19,7 @@ html {
 a {
     text-decoration: none;
     font-size: 2rem;
+    color: var(--foreground-main)
 }
 
 body {
@@ -32,12 +33,27 @@ body {
     height: 7.5vh;
 }
 
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
 /* start header styling */
 
 header {
-    border-bottom: 1px solid var(--foreground1);
-    color: var(--foreground1);
-    background-color: var(--background1);
+    border-bottom: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -52,9 +68,9 @@ header {
 /* start of footer styling */
 footer{
     margin-top: 1rem;
-    border-top: 1px solid var(--foreground1);
-    color: var(--foreground1);
-    background-color: var(--background1);
+    border-top: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
 }
 
 #right-footer a img {
@@ -97,7 +113,7 @@ footer .nav-pages {
 }
 
 .nav-page {
-    color: var(--foreground1);
+    color: var(--foreground-marginals);
     margin: 0 1rem;
 }
 /* end combined header/footer styling */
