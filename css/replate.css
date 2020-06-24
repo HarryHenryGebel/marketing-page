@@ -1,6 +1,6 @@
 :root {
     --foreground1: #4e2670;
-    --foreground-main: #f2d53c;
+    --foreground-main: #4e2670;
     --background1: #fceed1;
     --background-main: white;
 }
@@ -30,6 +30,11 @@ body {
 
 .replate-logo {
     height: 7.5vh;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
 }
 
 /* start header styling */
