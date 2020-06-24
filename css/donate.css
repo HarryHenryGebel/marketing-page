@@ -46,3 +46,37 @@ p {
 #purpose img {
     width: 45%;
 }
+
+#testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+#testimonial h2 {
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+#testimonial-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+#testimonial figure {
+    width: 30%;
+}
+
+#testimonial-text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 0;
+}
+
+#testimonial-text p {
+    margin-bottom: 1rem;
+}
