@@ -27,6 +27,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+img {
+    object-fit: contain;
+}
+
 .replate-logo {
     height: 7.5vh;
 }
