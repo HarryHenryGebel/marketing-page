@@ -60,11 +60,18 @@ header {
     margin-bottom: 1rem;
 }
 
+#nav-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
 #header-nav-auth {
     padding: 1rem;
     border: 2px solid;
     border-radius: .5rem;
-    align-self: flex-start;
+    align-self: flex-end;
 }
 /* end header styling */
 
@@ -74,6 +81,7 @@ footer{
     border-top: 1px solid var(--foreground-marginals);
     color: var(--foreground-marginals);
     background-color: var(--background-marginals);
+    padding-top: 1rem;
 }
 
 #right-footer a img {
@@ -96,23 +104,16 @@ footer .nav-pages {
 /* start combined header/footer styling */
 .linkbox {
     display: flex;
-    justify-content: space-between;
     height: 10vh;
     margin: 0 1rem;
 }
 
-.nav-left {
-    display: flex;
-}
-
 .nav-home {
-    padding: 1rem;
+    padding: 1rem
 }
 
 .nav-pages {
     display: flex;
-    align-self: flex-end;
-    margin-left: 10rem;
 }
 
 .nav-page {
