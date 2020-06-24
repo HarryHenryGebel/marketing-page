@@ -33,8 +33,10 @@ h1 {
 p {
     margin: 4% 0;
     width: 95%;
-    justify-content: center;
-    text-align: center;
+    text-align: left;
+    position: absolute;
+    top: 57%;
+    left: 4%;
 }
 #buttons {
     display: flex;
