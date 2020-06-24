@@ -1,0 +1,122 @@
+:root {
+    --foreground-marginals: #4e2670;
+    --foreground-main: mediumblue;
+    --background-marginals: #fceed1;
+    --background-main: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--foreground-main)
+}
+
+body {
+    color: var(--foreground-main);
+    background-color: var(--background-main);
+    font-size: 1.6rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.replate-logo {
+    height: 7.5vh;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* start header styling */
+
+header {
+    border-bottom: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#header-nav-auth {
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: .5rem;
+    align-self: flex-start;
+}
+/* end header styling */
+
+/* start of footer styling */
+footer{
+    margin-top: 1rem;
+    border-top: 1px solid var(--foreground-marginals);
+    color: var(--foreground-marginals);
+    background-color: var(--background-marginals);
+}
+
+#right-footer a img {
+    width: 2rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.attribution {
+    font-size: 1rem;
+}
+
+footer .nav-pages {
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+/* end of footer styling */
+
+/* start combined header/footer styling */
+.linkbox {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 0 1rem;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-home {
+    padding: 1rem;
+}
+
+.nav-pages {
+    display: flex;
+    align-self: flex-end;
+    margin-left: 10rem;
+}
+
+.nav-page {
+    color: var(--foreground-marginals);
+    margin: 0 1rem;
+}
+/* end combined header/footer styling */
+
+/* LocalWords:  meyers css
+*/
