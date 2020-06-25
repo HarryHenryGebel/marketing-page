@@ -22,3 +22,34 @@ h1 {
 .question p {
     padding-left: 3rem;
 }
+
+@media only screen and (max-width: 800px) {
+    #content {
+        margin: 1rem;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 2rem;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
