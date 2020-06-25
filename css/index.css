@@ -27,20 +27,20 @@ body {
     height: 45vh;
     object-fit: cover;
 }
-h1 {
+#main-body h1 {
     color: #4e2670;
     padding-top: 3%;
     position: absolute;
-    left: 19%;
-    justify-content: flex-end;
+    font-size: 2rem;
+    left: 2%;
 }
-p {
+#main-body p {
     margin: 4% 0;
     width: 95%;
-    text-align: left;
     position: absolute;
-    top: 57%;
+    top: 65%;
     left: 4%;
+    font-size: 1.4rem;
 }
 #buttons {
     display: flex;
@@ -50,11 +50,12 @@ p {
 button {
     background-color: #4e2670;
     border-radius: 10px;
-    padding: 3.5% 7%;
+    padding: 10px 10px;
     color: white;
     font-family: 'Work Sans', sans-serif;
     margin-right: 2%;
     border: none;
+    width: auto;
 }
 button:hover {
     background-color: #7d3cff;
@@ -64,26 +65,41 @@ header {
 }
 /* end of landing styling */
 /* start of resizing */
-@media (min-width:500px) {
+
+@media (min-width:400px) {
     #main-body img {
         height: 50vh;
     }
     #buttons {
-        justify-content: flex-end;
+        justify-content: center;
     }
     #buttons button {
         font-size: 2rem;
     }
     #main-body h1 {
+        font-size: 2.5rem;
+        left: 5%;
+    }
+}
+@media (min-width:500px) {
+    #main-body h1 {
+        left: 26%;
+    }
+}
+@media (min-width:600px) {
+    #buttons {
+        justify-content: flex-end;
+        margin: 0;
+    }
+    #main-body h1 {
+        left: 65%;
         font-size: 3rem;
-        left: 71%;
     }
 }
 @media (min-width: 900px) {
     #main-body img {
         height: 60vh;
     }
-
 }
 @media (min-width: 1000px) {
     #main-body img {
@@ -91,13 +107,19 @@ header {
     }
     #main-body h1 {
         font-size: 3.5rem;
-        left: 68%;
+        left: 70%;
     }
-    p {
-        font-size: 2.5rem;
+    #main-body p {
+        font-size: 2rem;
     }
     button {
         padding: 2.5% 5%;
 
+    }
+}
+@media (min-width: 1200px) {
+    #main-body h1 {
+        left: 68%;
+        font-size: 3.8rem;
     }
 }
