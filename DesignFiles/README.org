@@ -1,0 +1,50 @@
+* General Information
+
+** Color Palette
+
+ + *css/replate.css* sets five color variables that should be used for
+   all colors and background colors in the project.
+ + *--foreground-marginals: #4e2670* used for text in headers and footers
+ + *--foreground-main: rgb(10, 10, 10)* used for text in the content area
+ + *--background-marginals: #fceed1* used as the background in headers and footers
+ + *--background-main: white* used as the background in the content area
+ + *--hover: #7d3cff* used as the color for hover text
+
+* Pages
+
+** Pages Overview
+
+*** General
+
++ Four pages: Home Page, About, Donate, FAQ
++ *header.html* and *footer.html* are standard headers and footers and should be copied and pasted into all .html files.
+
+*** Font
+
+The base font for the project is [[https://fonts.google.com/specimen/Work+Sans?preview.size=25&sidebar.open&selection.family=Work+Sans][Work Sans by Wei Huang]].
+
+*** Project structure
+
+The following file structure is maintained by the project. Any
+additional files or directories should be added to this section of
+this document.
+
+*/*
++ *about.html* About page
++ *index.html* Home page
++ *donate.html* Donate page
++ *faq.html* FAQ page
++ *footer.html* Template footer
++ *header.html* Template header
++ *README.md* This document exported to markdown
++ *assets/* Contains non-logo images used in the project
++ *css/* css files
+ + *replate.css* common css for all pages
+ + */page-name/.css* css pages for each page
++ *DesignFiles/* contains documents related to the project's overall design
+ + *design-ideas.org* org-mode document with early design ideas,
+   preserved for historical purposes.
+ + *DesignIdeas.pdf* compressed pdf exported from the above file
+ * *README.org* org-mode source document for this file
+ * *README.pdf* compressed PDF exported from this file
++ *logo images* contains all logos used in the project
