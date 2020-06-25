@@ -81,3 +81,45 @@ p {
 #testimonial-text p {
     margin-bottom: 1rem;
 }
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+    }
+
+    #purpose {
+        flex-direction: column;
+    }
+
+    #purpose-text {
+        width: auto;
+    }
+
+    #purpose img {
+        align-self: center;
+        width: 50%;
+    }
+
+    #testimonial h2 {
+        align-self: center;
+        margin: 0;
+    }
+
+    #testimonial-content {
+        margin-top: 1rem;
+    }
+
+    #testimonial figure {
+        align-self: center;
+        width: 50%;
+    }
+
+    #testimonial-text {
+        width: auto;
+        margin-top: 1.5rem;
+    }
+
+    #testimonial-content {
+        flex-direction: column;
+    }
+}
