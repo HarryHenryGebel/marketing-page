@@ -1,0 +1,75 @@
+* General Information
+
+** Color Palette
+
+*css/replate.css* sets five color variables that should be used for
+all color and background colors in the project.
+*--foreground-marginals: #4e2670* used for text in headers and footers
+*--foreground-main: rgb(10, 10, 10)* used for text in the content area
+*--background-marginals: #fceed1* used as the background in headers and footers
+*--background-main: white* used as the background in the content area
+*--hover: #7d3cff* used as the color for hover text
+
+* Pages
+
+** Pages Overview
+
+*** General
+
++ Four pages: Home Page, About, Donate, FAQ
++ Also sign on? *Link to sign on and signup to be provided by Front
+  end*
++ Standard header and footer?
++ Preprocessor
+ + They aren't teaching LESS any longer, but they still use SASS in
+   React, will it be useful for us to learn it a little early?
+ + How difficult is it to install a preprocessor on Windows?
+  + And if we are going to have to do it eventually anyway, might we
+    just as well figure it out now regardless?
+  + Perhaps after finishing bulk of work i.e. Wednesday or Thursday?
+ + Interaction with other development tools e.g, Live Server, gint*?*
+
+*** Font
+
+Base font: [[https://fonts.google.com/specimen/Work+Sans?preview.size=25&sidebar.open&selection.family=Work+Sans][Work Sans by Wei Huang]]
+
+*** Project structure
+
+*/*
++ *index.html* Home page
++ *about.html* About page
++ *donate.html* Donate page
++ *faq.html* FAQ page
++ *footer.html* Template footer
++ *header.html* Template header
++ *assets/* images
++ *css/* css files
+ + *replate.css* common css for all page
+ + */page-name/.css* css pages for each page
+
+*** Donate Page
+
+*** FAQ
+
+** Wireframes
+
+*** Header
+
+#+BEGIN_SRC ditaa :file org-header-wireflame.png
+ +-------------------------------------------------------+
+ |                                                       |
+ |  +---+  Background image        +------------------+  |
+ |  | R |   of pans of leftover    | Login   Sign up  |  |
+ |  +---+    food                  |                  |  |
+ |                                 +------------------+  |
+ |                                                       |
+ |          Home  About  FAQ  Donate                     |
+ |                                                       |
+ +-------------------------------------------------------+
+#+END_SRC
+
+*** Footer
+
+*** Donate Page
+
+*** FAQ
