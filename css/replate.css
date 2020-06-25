@@ -21,6 +21,12 @@ a {
     color: var(--foreground-main)
 }
 
+a.traditional-link {
+    font-size: inherit;
+    text-decoration: underline;
+    color: blue;
+}
+
 body {
     color: var(--foreground-main);
     background-color: var(--background-main);
