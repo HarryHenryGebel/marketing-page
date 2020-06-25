@@ -46,7 +46,6 @@ p {
 
 #purpose img {
     width: 30%;
-    object-fit: contain;
 }
 
 #testimonial {
@@ -81,4 +80,90 @@ p {
 
 #testimonial-text p {
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+    }
+
+    #purpose {
+        flex-direction: column;
+    }
+
+    #purpose-text {
+        width: auto;
+    }
+
+    #purpose img {
+        align-self: center;
+        width: 50%;
+    }
+
+    #testimonial h2 {
+        align-self: center;
+        margin: 0;
+    }
+
+    #testimonial-content {
+        margin-top: 1rem;
+    }
+
+    #testimonial figure {
+        align-self: center;
+        width: 50%;
+    }
+
+    #testimonial-text {
+        width: auto;
+        margin-top: 1.5rem;
+    }
+
+    #testimonial-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #plea {
+        margin: 0 0.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #purpose {
+        margin: 0.5rem;
+    }
+
+    #purpose-text {
+        padding: 1rem 0;
+    }
+
+    #purpose img {
+        width: 66.666%;
+    }
+
+    #testimonial {
+        margin: 0.5rem;
+    }
+
+    #testimonial-content {
+        margin:p 0;
+    }
 }
