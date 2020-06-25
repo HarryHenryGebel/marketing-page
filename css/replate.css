@@ -3,6 +3,7 @@
     --foreground-main: rgb(10, 10, 10);
     --background-marginals: #fceed1;
     --background-main: white;
+    --hover: #7d3cff;
 }
 
 * {
@@ -95,7 +96,6 @@ footer{
     margin-left: 1rem;
     margin-top: 1rem;
 }
-
 .attribution {
     font-size: 1rem;
 }
@@ -103,6 +103,9 @@ footer{
 footer .nav-pages {
     margin-top: 1rem;
     align-self: flex-start;
+}
+.nav-page:hover {
+    color: var(--hover);
 }
 /* end of footer styling */
 
