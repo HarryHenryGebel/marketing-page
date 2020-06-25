@@ -67,7 +67,7 @@ header {
 }
 
 #header-nav-auth {
-    padding: 1rem;
+    padding: 0.33333rem;
     border: 2px solid;
     border-radius: .5rem;
     align-self: flex-end;
