@@ -123,3 +123,47 @@ p {
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    #plea {
+        margin: 0 0.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #purpose {
+        margin: 0.5rem;
+    }
+
+    #purpose-text {
+        padding: 1rem 0;
+    }
+
+    #purpose img {
+        width: 66.666%;
+    }
+
+    #testimonial {
+        margin: 0.5rem;
+    }
+
+    #testimonial-content {
+        margin:p 0;
+    }
+}
