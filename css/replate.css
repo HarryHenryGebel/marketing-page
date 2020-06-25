@@ -66,13 +66,6 @@ header {
     margin-bottom: 1rem;
 }
 
-#nav-right {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-grow: 1;
-}
-
 #header-nav-auth {
     padding: 1rem;
     border: 2px solid;
@@ -88,6 +81,12 @@ footer{
     color: var(--foreground-marginals);
     background-color: var(--background-marginals);
     padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#right-footer {
+    align-self: flex-end;
 }
 
 #right-footer a img {
@@ -126,6 +125,14 @@ footer .nav-pages {
     color: var(--foreground-marginals);
     margin: 0 1rem;
 }
+
+.nav-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
 /* end combined header/footer styling */
 
 /* LocalWords:  meyers css
