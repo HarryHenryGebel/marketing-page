@@ -2,13 +2,13 @@
 
 ** Color Palette
 
-*css/replate.css* sets five color variables that should be used for
-all color and background colors in the project.
-*--foreground-marginals: #4e2670* used for text in headers and footers
-*--foreground-main: rgb(10, 10, 10)* used for text in the content area
-*--background-marginals: #fceed1* used as the background in headers and footers
-*--background-main: white* used as the background in the content area
-*--hover: #7d3cff* used as the color for hover text
+ + *css/replate.css* sets five color variables that should be used for
+all colors and background colors in the project.
+ + *--foreground-marginals: #4e2670* used for text in headers and footers
+ + *--foreground-main: rgb(10, 10, 10)* used for text in the content area
+ + *--background-marginals: #fceed1* used as the background in headers and footers
+ + *--background-main: white* used as the background in the content area
+ + *--hover: #7d3cff* used as the color for hover text
 
 * Pages
 
