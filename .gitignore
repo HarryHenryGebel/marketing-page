@@ -15,6 +15,7 @@
 *.pdf
 *.tex
 !DesignIdeas.pdf
+!README.pdf
 
 # scratch directory for experimental work
 scratch
